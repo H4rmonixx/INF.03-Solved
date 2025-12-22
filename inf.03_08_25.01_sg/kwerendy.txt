@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT Count(*) As LiczbaKlientow FROM klienci;
+Zapytanie 2: SELECT k.Nazwisko, k.Imie, z.id, z.kod_koloru, z.pojemnosc, z.data_odbioru FROM klienci k INNER JOIN zamowienia z ON k.Id = z.id_klienta ORDER BY z.data_odbioru ASC;
+Zapytanie 3: SELECT k.Nazwisko, k.Imie, z.id, z.kod_koloru, z.pojemnosc, z.data_odbioru FROM klienci k INNER JOIN zamowienia z ON k.Id = z.id_klienta WHERE z.data_odbioru BETWEEN '2021/11/05' AND '2021/11/07' ORDER BY z.data_odbioru ASC;
+Zapytanie 4: SELECT Imie, Nazwisko FROM klienci WHERE Plec LIKE "k";
