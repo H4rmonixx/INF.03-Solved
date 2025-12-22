@@ -1,0 +1,41 @@
+*{
+    font-family: 'Verdana';
+}
+header > div{
+    background-color: #6F79A8;
+    color: white;
+}
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 140px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar_tile{
+    background-color: #9FA8DA;
+    width: 160px;
+    height: 85px;
+    margin: 5px;
+    border: 1px solid #6F79A8;
+    overflow: hidden;
+}
+.calendar_tile:hover{
+    background-color: #6F79A8;
+    color: white;
+}
+
+footer{
+    background-color: #6F79A8;
+    color: white;
+    padding: 5px;
+    text-align: end;
+}
+
+h6{
+    text-align: center;
+}
