@@ -1,0 +1,50 @@
+body{
+    font-family: 'Georgia';
+    background-color: aliceblue;
+}
+header{
+    background-color: #A00037;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 3px;
+}
+section{
+    width: 70%;
+}
+article{
+    display: none;
+}
+button{
+    background-color: #D81B60;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    width: 100%;
+}
+aside{
+    background-color: #D81B60;
+    color: white;
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 15px 15px 12px dimgray;
+}
+h5, blockquote{
+    text-align: center;
+    margin: none;
+    font-style: italic;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+table{
+    margin: auto;
+    width: 95%;
+    border: 1px solid aliceblue;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
